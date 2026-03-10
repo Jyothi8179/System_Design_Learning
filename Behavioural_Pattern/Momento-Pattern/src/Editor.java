@@ -10,7 +10,7 @@ public class Editor {
         return new EditorState(content);
     }
 
-    public void restore(EditorState state){
+    public void undo(EditorState state){
         if(state == null){
             return;
         }

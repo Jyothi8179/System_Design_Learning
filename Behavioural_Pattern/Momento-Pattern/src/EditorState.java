@@ -1,4 +1,4 @@
-public class EditorState {
+public class EditorState{
 
     private final String content;
 

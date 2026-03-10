@@ -8,7 +8,7 @@ public class History {
         stack.push(state);
     }
 
-    public EditorState restore(){
+    public EditorState undo(){
         if(stack.size() <= 1){
             return null;
         }
